@@ -1,22 +1,620 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Under Contruction</title>
-<style type="text/css">
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background:#eff2fb;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta content -->
+    <meta name="description"
+        content="Garpuhnetshop Grosir dan eceran sembako terlengkap. Dapatkan harga terbaik untuk beras, minyak goreng, gula, dan kebutuhan pokok lainnya. Belanja sekarang dan nikmati pengiriman cepat. #grosir #eceran #sembako #beras #minyakgoreng #gula #pengirimancepat">
+    <meta name="keywords"
+        content="sembako, grosir sembako, eceran sembako, belanja online sembako, beras, minyak goreng, gula">
+    <meta name="author" content="garpuhnetshop">
+    <meta name="robots" content="index, follow">
+    <!-- pavicon -->
+    <link rel="shortcut icon" href="./app/src/pav.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-2/css/all.min.css">
+    <link rel="stylesheet" href="./app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app/css/style.css">
+
+    <title>Gshop&nbsp;Official</title>
 </head>
 
 <body>
+    <!-- header start -->
+    <header id="header-container" class="fixed-top">
+        <!-- navbar start-->
+        <nav class="navbar navbar-expand-custom navbar-mainbg">
+            <h1 class="h1"><a class="navbar-brand navbar-logo" href="./">gshop</a></h1>
+            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <div class="hori-selector">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#product"><i class="fas fa-box"></i>Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#superiory"><i class="fas fa-suitcase"></i>Keunggulan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ulasan"><i class="fas fa-receipt"></i>Ulasan</a>
+                    </li>
 
-<img src="./main.png" width="100%" height />
+                    <li class="nav-item">
+                        <a class="nav-link" href="#support"><i class="fas fa-question"></i>Support</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main id="container">
+        <section class="hero">
+            <!--- hero start --->
+            <section class="hero-wrapper">
+                <div class="hero-content">
+
+                    <div class="row banner-svg">
+                        <div class="col">
+                            <h2 class="h2">Pusat Belanja Sembako Murah Dan Terpercaya&nbsp;<span
+                                    class="text-warning">!!!</span></h2>
+                            <p class="fs-4 mb-4">Sembako diskon&nbsp;<br /><span class="text-danger">30%</span> +
+                                gratis&nbsp;ongkir
+                            </p>
+                            <br />
+                            <p class="title-ban"><span class="text-success"><i
+                                        class="fas fa-check"></i></span>&nbsp;Gratis
+                                ongkir</p>
+                            <p class="title-ban"><span class="text-success"><i
+                                        class="fas fa-check"></i></span>&nbsp;Pengiriman cepat</p>
+                            <p class="title-ban"><span class="text-success"><i
+                                        class="fas fa-check"></i></span>&nbsp;Flashsale tiap hari</p>
+                            <br />
+                            <div class="title-ground">
+                                <span class="title-one">Rp</span><span class="title-two">12.000</span><span>/PCS</span>
+                                <br />
+                                <span class="fw-bold fs-5">+gratis garam</span>
+                            </div>
+                            <br />
+                            <div class="btn-action mt-4">
+                                <a href="https://s.lazada.co.id/s.tbgM7" class="btn btn-primary btn-lg">Claim</a>
+                            </div>
+                        </div>
+                        <div class="col branding">
+                            <img src="./app/src/banner.webp" alt="ban" width="" height="">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--- hero end--->
+
+            <!--- flash sale start --->
+            <div class="flashsale">
+                <div class="card-box p-4">
+                    <div class="flash-logo d-flex">
+                        <img src="./app/src/flash.webp" alt="flashsale" width="180" height="80">
+                        <div class="countdown">
+                            <span class="badge rounded-pill text-bg-dark text-light mt-4 ml-4">
+                                <div id="times"></div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="show-all float-end mb-4">
+                        <a href="https://s.lazada.co.id/s.tbgM7" class="text-dark text-decoration-none fw-bold"
+                            target="_blank">Lihat semua</a>
+                    </div>
+                    <div class="horizon-card mt-4">
+                        <div class="card-box-body">
+
+                            <!---  <a href="https://s.lazada.co.id/s.tbgM7" class="text-decoration-none" target="_blank">
+                                <div class="card">
+                                    <img src="./app/src/prd_001.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="bg-success text-center card-badge">DISKON 30%</div>
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Minyak Kita 1Ltr Pouch</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+                                        <p class="card-text text-decoration-line-through text-dangger mb-0">Rp. 150.000
+                                        </p>
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 20.000</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbTcc" class="text-decoration-none" target="_blank">
+                                <div class="card">
+                                    <img src="./app/src/prd_002.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="bg-success text-center card-badge">DISKON 30%</div>
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Indomilk Susu Steril</p>
+                                        <p class="card-text text-title">Susu UHT.Minuman</p>
+                                        <p class="card-text text-decoration-line-through text-dangger mb-0">Rp. 15.900
+                                        </p>
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 11.200</p>
+                                    </div>
+                                </div>
+                            </a> -->
+                            <a href="https://s.lazada.co.id/s.tbgwS" class="text-decoration-none" target="_blank">
+                                <div class="card">
+                                    <img src="./app/src/prd_004.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="bg-success text-center card-badge">DISKON 30%</div>
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 2Ltr Pouch</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+                                        <p class="card-text text-decoration-line-through text-dangger mb-0">Rp. 59.001
+                                        </p>
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 41.300</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://s.lazada.co.id/s.tbgry" class="text-decoration-none" target="_blank">
+                                <div class="card">
+                                    <img src="./app/src/prd_003.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="bg-success text-center card-badge">DISKON 30%</div>
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 5Ltr Jerigen</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+                                        <p class="card-text text-decoration-line-through text-dangger mb-0">Rp.
+                                            170.005</p>
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 118.650</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbgwS" class="text-decoration-none" target="_blank">
+                                <div class="card">
+                                    <img src="./app/src/prd.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="bg-success text-center card-badge">DISKON 30%</div>
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 1Ltr Pouch</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+                                        <p class="card-text text-decoration-line-through text-dangger mb-0">Rp.
+                                            34.338</p>
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 25.410</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbgwS" class="text-decoration-none" target="_blank">
+                                <div class="card">
+                                    <img src="./app/src/prd_004.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="bg-success text-center card-badge">DISKON 30%</div>
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 2Ltr Pouch 1 Dus</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+                                        <p class="card-text text-decoration-line-through text-dangger mb-0">Rp.
+                                            255.000</p>
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 216.700</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- flash sale end --->
+
+            <!--- product start --->
+            <div class="product-data">
+                <div class="product-container" id="product">
+                    <div class="product-nav mb-4">
+                        <h2 class="h2">PILIHAN TERBAIK</h2>
+                    </div>
+                    <div class="horizon-product">
+                        <div class="product-body">
+                            <a href="https://s.lazada.co.id/s.tbgM7" class="text-decoration-none" target="_blank">
+                                <div class="card" style="border: none;">
+                                    <img src="./app/src/prd_001.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Minyak Kita 1Ltr Pouch</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 20.000</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbTcc" class="text-decoration-none" target="_blank">
+                                <div class="card" style="border: none;">
+                                    <img src="./app/src/prd_002.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Indomilk Susu Steril</p>
+                                        <p class="card-text text-title">Susu UHT.Minuman</p>
+
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 11.200</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbgwS" class="text-decoration-none" target="_blank">
+                                <div class="card" style="border: none;">
+                                    <img src="./app/src/prd_004.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 2Ltr Pouch</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 41.300</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://s.lazada.co.id/s.tbgry" class="text-decoration-none" target="_blank">
+                                <div class="card" style="border: none;">
+                                    <img src="./app/src/prd_003.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 5Ltr Jerigen</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 118.650</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbgwS" class="text-decoration-none" target="_blank">
+                                <div class="card" style="border: none;">
+                                    <img src="./app/src/prd.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 1Ltr Pouch</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 25.410</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://s.lazada.co.id/s.tbgwS" class="text-decoration-none" target="_blank">
+                                <div class="card" style="border: none;">
+                                    <img src="./app/src/prd_004.webp" class="card-img-top" alt="Bimoli">
+                                    <div class="card-body">
+                                        <p class="card-text fw-bold">Bimoli 2Ltr Pouch 1 Dus</p>
+                                        <p class="card-text text-title">Dapur.Minyak goreng</p>
+
+                                        <p class="card-text fs-5 fw-bold text-hrg mt-0">Rp. 216.700</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--- product end --->
+        </section>
+        <!-- feature start -->
+        <section class="features">
+            <div class="features-container">
+                <div class="features-wrapper">
+                    <div class="features-area">
+                        <img src="./app/src/dapur.webp" class="rounded mx-auto d-block opacity-50" alt="dapur"
+                            height="200" width="200">
+                        <p class="features-title">DAPUR</p>
+                    </div>
+                    <div class="features-area">
+                        <img src="./app/src/minuman.webp" class="rounded mx-auto d-block opacity-50" alt="dapur"
+                            height="200" width="200">
+                        <p class="features-title">MINUMAN</p>
+                    </div>
+                    <div class="features-area">
+                        <img src="./app/src/snack.webp" class="rounded mx-auto d-block opacity-50" alt="dapur"
+                            height="200" width="200">
+                        <p class="features-title">MAKANAN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-ugl">
+                <div class="features-ugl-container" id="superiory">
+                    <div class="features-ugl-wrapper">
+
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./app/src/prel.webp" class="img-fluid rounded-start"
+                                        alt="original, harga grosir" width="" height="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ORIGINAL, HARGA GROSIR</h5>
+                                        <p class="card-text">Dapatkan produk original dengan harga grosir yang tak
+                                            tertandingi! Kualitas terjamin, harga bersahabat.</p>
+                                        <p class="card-text">Garpuhnetshop menawarkan produk yang pastinya original ,
+                                            kualitas tinggi dan yang terpenting harganya yang bersahabat dengan kamu.
+                                        </p>
+                                        <p class="card-text">Produk original, harga grosir dan bersahabat serta
+                                            memberikan solusi untuk kebutuhan kamu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./app/src/fong.webp" class="card-img-top" alt="gratis ongkir" width=""
+                                        height="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pengiriman Kilat, Produk Berkualitas: Belanja Aman dan
+                                            Nyaman!</h5>
+                                        <p class="card-text">Pengiriman Kilat, Dijamin Puas! Kami memahami betapa
+                                            pentingnya waktu bagi Anda. Oleh karena itu, kami selalu berupaya
+                                            mengirimkan pesanan Anda secepat mungkin. Dengan garpuhnetshop, Anda bisa
+                                            mendapatkan produk berkualitas dengan pengiriman yang cepat dan aman. Jika
+                                            Anda tidak puas, kami siap membantu!.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./app/src/hrel.webp" class="card-img-top" alt="proteksi produk" width=""
+                                        height="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Keamanan Maksimal, Ketepatan Minimal: Pengiriman yang
+                                            Anda Percayai!</h5>
+                                        <p class="card-text">Garansi Produk Tepat, Uang Kembali!" Kami sangat yakin
+                                            dengan kualitas layanan kami. Jika produk yang Anda terima tidak sesuai
+                                            dengan pesanan, kami akan dengan senang hati mengganti atau mengembalikan
+                                            uang Anda. Belanja di garpuhnetshop tanpa rasa khawatir!. yuk tunggu apa
+                                            lagi kunjungi olshop kami ya..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="ctaarea">
+                <div class="ctaarea-container">
+                    <h2 class="h2 text-center text-light">PAKET HEMAT SPESIAL</h2>
+                    <p class="text-center text-light mb-4">Dapatkan penawaran eksklusif dengan membeli paket hemat
+                        kami. Paket hemat
+                        kami berisi kombinasi produk terbaik yang sulit Anda temukan di tempat lain. Selain itu, Anda
+                        juga akan mendapatkan bonus menarik seperti diskon tambahan atau gratis ongkir.</p>
+                    <div class="ctaarea-content mt-3">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="icon-cta">
+                                            <span><iconify-icon
+                                                    icon="hugeicons:delivery-truck-01"></iconify-icon></span>
+                                        </div>
+                                        <h5 class="card-title">GRATIS ONGKIR</h5>
+                                        <p class="card-text">Jangan Lewatkan! Promo gratis ongkir terbatas hanya untuk
+                                            periode tertentu. Stok produk terbatas, jadi jangan sampai kehabisan produk
+                                            favorit Anda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="icon-cta">
+                                            <span><iconify-icon icon="solar:gift-bold"></iconify-icon></span>
+                                        </div>
+                                        <h5 class="card-title">HADIAH MENARIK</h5>
+                                        <p class="card-text">Semakin Banyak Belanja, Semakin Besar Hadiahnya! Dapatkan
+                                            hadiah yang lebih menarik dengan meningkatkan total belanja Anda. Semakin
+                                            besar nilai transaksi Anda, semakin banyak pilihan hadiah yang bisa Anda
+                                            dapatkan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-action mt-4 mb-4 text-center">
+                            <a href="https://s.lazada.co.id/s.tbgM7" class="btn btn-primary btn-lg"
+                                target="_blank">Pilih paket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- features end -->
+
+        <!-- testimoni start -->
+        <section class="testimonials" id="ulasan">
+            <div class="testimonial">
+                <h2 class="h2 text-center mb-4">DIPERCAYA OLEH 1000+ LEBIH CUSTOMER DI SELURUH INDONESIA</h2>
+                <div class="testimonial-area">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header">Lazada</div>
+                        <div class="card-body">
+                            <div class="start-area">
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                            </div>
+                            <p class="card-text">Bimoli merk awal awal minyak kemasan, kualitasnya gak usah diragukan
+                                lagi.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header">Lazada</div>
+                        <div class="card-body">
+                            <div class="start-area">
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                            </div>
+                            <p class="card-text">Real 2L minyak bimolinya, sellernya amanah dan responya cepat, berkah
+                                selalu.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header">Lazada</div>
+                        <div class="card-body">
+                            <div class="start-area">
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                                <span><iconify-icon icon="material-symbols:star" class="star"></iconify-icon></span>
+                            </div>
+                            <p class="card-text">Sesuai pesanan, seller juga ramah cepat respon nya, pengiriman juga
+                                cepat abang kurirnya ramah.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-action mt-4 mb-4 text-center">
+                    <a href="#" class="btn btn-primary btn-lg" target="_blank">Lihat testimoni pelanggan</a>
+                </div>
+            </div>
+        </section>
+        <!-- testimoni end -->
+
+        <!-- cta start -->
+        <section class="cta">
+            <div class="ca-container">
+                <div class="cta-wrapper">
+                    <h2 class="h2 text-center text-light">JANGAN LEWATKAN KESEMPATAN INI!</h2>
+                    <p class="text-center text-light mb-4">Garansi 30 hari , gratis ongkir, dan hadiah menarik menanti
+                        kamu</p>
+                    <div class="btn-action mt-4 mb-4 text-center">
+                        <a href="https://s.lazada.co.id/s.tbgM7" class="btn btn-primary btn-lg" target="_blank">Order
+                            now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta end -->
+    </main>
+    <!-- main end-->
+
+    <!-- footer start -->
+    <footer id="footer-container" class="pt-0">
+        <section id="footer-wrapper">
+            <div class="footer-area">
+                <div class="nav-top-footer">
+                    <div class="nav-footer px-4 ">
+                        <div class="row gx-5 w-100">
+                            <div class="col">
+                                <div class="col-area">
+                                    <div class="col-head">
+                                        <div class="col-icon"><iconify-icon icon="mingcute:flash-fill"></iconify-icon>
+                                        </div>
+                                    </div>
+                                    <div class="col-body">
+                                        <strong class="nav-f-jdl">Flashsale tiap hari</strong>
+                                        <p class="col-title">Nikmati diskon tiap harinya</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="col-area">
+                                    <div class="col-head">
+                                        <div class="col-icon"><iconify-icon icon="mdi:car-limousine"></iconify-icon>
+                                        </div>
+                                    </div>
+                                    <div class="col-body">
+                                        <strong class="nav-f-jdl">Gratis Ongkir</strong>
+                                        <p class="col-title">Gratis ongkir untuk pengirimanmu</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="col-area">
+                                    <div class="col-head">
+                                        <div class="col-icon"><iconify-icon icon="ri:replay-30-fill"></iconify-icon>
+                                        </div>
+                                    </div>
+                                    <div class="col-body">
+                                        <strong class="nav-f-jdl">Garansi 30 hari</strong>
+                                        <p class="col-title">Garansi produk kamu hingga 30 hari</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="list-footer"></div>
+
+                </div>
+                <br />
+                <div class="nav-sosmed">
+                    <div class="row">
+                        <div class="col-auto">
+                            <p class="nav-s-jdl fs-6 fw-bold text-light mb-4">Nikmati hadiah menarik hanya dengan
+                                pantengin terus sosmed kami.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto"><a href="https://facebook.com/garpuhnetshopp" class="text-light"
+                                target="_blank"><span class="d-block"><iconify-icon
+                                        icon="ic:baseline-facebook"></iconify-icon></span></a></div>
+                        <div class="col-auto"><a href="https://instagram.com/garpuhnetshop" class="text-light"><span
+                                    class="d-block"><iconify-icon icon="mdi:instagram"></iconify-icon></span></a></div>
+                        <div class="col-auto"><a href="https://x.com/garpuhnetshop" class="text-light"><span
+                                    class="d-block" target="_blank"><iconify-icon
+                                        icon="fa6-brands:twitter"></iconify-icon></span></a></div>
+                    </div>
+                    <div id="support">
+                        <div class="row text-light ">
+                            <div class="col-3 w-100 d-flex mr-4 align-items-center">
+                                <div class="nav-s-head">
+                                    <div class="nav-s-icon fs-3"><iconify-icon
+                                            icon="ri:customer-service-fill"></iconify-icon></div>
+                                </div>
+                                <div class="nav-s-body">
+                                    <strong class="nav-s-jdl">Layanan 24 Jam</strong>
+                                    <p>gshop@outlook.co.id</p>
+                                    <p><span><iconify-icon
+                                                icon="ant-design:whats-app-outlined"></iconify-icon></span>&nbsp;082219508488
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="row">
+                    <div class="col text-light d-flex fs-6 align-items-center">
+                        &copy;&nbsp;<span id="year"></span>&nbsp;&nbsp;<a href="https://shop.garpuhnet.com"
+                            class="text-light text-decoration-none">garpuhnetshop</a>&nbsp;by&nbsp;<a
+                            href="https://www.garpuhnet.com" class="text-light text-decoration-none">garpuhnet</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+
+
+
+
+    <!-- javascript -->
+    <script src="./app/js/script.js" async></script>
+    <script src="./app/js/iconify-icon.min.js"></script>
+    <script src="./app/js/bootstrap.min.js"></script>
+    <script src="./app/js/popper.min.js"></script>
+    <script src="./app/js/jquery.min.js"></script>
+
 
 </body>
+
 </html>
